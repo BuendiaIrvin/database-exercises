@@ -121,3 +121,7 @@ ORDER BY emp_no DESC;
 SELECT * FROM employees
 WHERE first_name IN ('Irena', 'Vidya', 'Maya')
 ORDER BY last_name, first_name DESC;
+
+SELECT * FROM salaries
+WHERE salary > 100000
+ORDER BY salary DESC;
