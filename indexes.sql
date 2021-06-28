@@ -26,8 +26,5 @@ ALTER TABLE quotes2 ADD UNIQUE (content);
 
 ALTER TABLE albums ADD UNIQUE (artist, name);
 
-
-# Peter Jackson     | Thriller                                                |         1982 |   473 | Pop
-
 INSERT INTO albums (artist, name, release_date, sales, genre)
-VALUES ('Peter Jackson', 'Thriller', 1982, 47.3, 'Pop');
+VALUES ('mike Jackson', 'Thriller', 1982, 47.3, 'Pop');
